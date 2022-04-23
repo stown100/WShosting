@@ -1,0 +1,104 @@
+.certificates {
+    padding: 8.07560137% 9.02777778%;
+}
+
+.cms__text {
+    margin-bottom: 20px;
+}
+
+.cms__text:last-of-type {
+    margin-top: 0;
+    margin-bottom: 49px;
+}
+
+.ssl-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, max-content));
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.ssl-card {
+    max-width: 280px;
+    background: rgba(103, 168, 210, 0.1);
+    border: 1px solid rgba(103, 168, 210, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+    border-radius: 10px;
+    padding-bottom: 33px;
+}
+
+.ssl-card__number {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 150%;
+    color: #67A8D2;
+    opacity: 0.5;
+    margin: 0 0 0 13px;
+    width: 34px;
+}
+
+.ssl-card__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #1B567C;
+    margin: -50px auto 0;
+    max-width: 232px;
+}
+
+.ssl-card__title-two {
+    margin-top: -60px;
+}
+
+.ssl-card__span {
+    width: 180px;
+    margin: 45px auto 30px;
+    border-bottom: 0.5px solid #1B567C;
+    padding: 0;
+}
+
+.ssl-card__span-two {
+    margin-top: 30px;
+}
+
+.ssl-card__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #3C3B3B;
+    margin: 0 auto 16px;
+}
+
+.ssl-card__text:last-of-type {
+    margin-bottom: 0;
+}
+
+.ssl-card__price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #1B567C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto 0;
+    padding: 0;
+}
+
+.ssl-card__price-two {
+    margin-top: 30px;
+}
+
+.ssl-card__year {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1B567C;
+    margin: 0 0 0 11px;
+    padding: 0;
+}

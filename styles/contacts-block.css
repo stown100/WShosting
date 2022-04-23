@@ -1,0 +1,152 @@
+.contacts-block {
+    background-color: #262626;
+    padding: 89px 130px 40px;
+    display: flex;
+    /* border-bottom: 1px solid #858585;
+    border-bottom-width: 1180px; */
+}
+
+.about-company__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #858585;
+    max-width: 490px;
+    margin-top: 18px;
+    margin-bottom: 68px;
+}
+
+.services {
+    display: flex;
+}
+
+.services__company {
+    margin-right: 85px;
+}
+
+.services-company__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #858585;
+    margin-bottom: 10px;
+}
+
+.services-company__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-company__list-li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.telephone-flex {
+    display: flex;
+    text-align: center;
+}
+
+.telephone__img {
+    margin-right: 9px;
+}
+
+.telephone__img-text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #858585;
+}
+
+.telephone__number {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 0 21px 39px;
+}
+
+.telephone__number:last-of-type {
+    margin: 0 0 24px 39px;
+}
+
+.telephone__support {
+    margin-left: 39px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.contacts-block__networks {
+    text-align: end;
+}
+
+.networks {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.networks__img {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.report-button {
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    cursor: pointer;
+    background: #67A8D2;
+    border-radius: 5px;
+    border: 0;
+}
+
+@media (min-width: 650px) and (max-width: 1150px) {
+    .contacts-block {
+        padding: 5% 7%;
+    }
+    .telephone__img-text {
+        font-size: 12px;
+    }
+    .telephone__number {
+        font-size: 12px;
+    }
+    .telephone__support {
+        font-size: 12px;
+    }
+    .networks__img {
+        width: 30px;
+    }
+    .report-button {
+        font-size: 10px;
+    }
+    .about-company__text {
+        font-size: 12px;
+        margin-bottom: 38px;
+    }
+    .services-company__title {
+        font-size: 14px;
+    }
+    .services-company__list-li {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 730px) {
+    .about-company__text {
+        margin: 18px auto 28px;
+    }
+    .contacts-block {
+        flex-direction: column;
+        padding: 5% 7%;
+    }
+    .contacts-block__networks {
+        text-align: center;
+    }
+}

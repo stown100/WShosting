@@ -1,0 +1,196 @@
+.rates {
+    color: #3C3B3B;
+    display: flex;
+    flex-direction: column;
+    padding: 94px 130px 0;
+}
+
+.rates-anchor {
+    text-decoration: none;
+}
+
+.rates__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    margin: 0 auto;
+}
+
+.rates__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    max-width: 702px;
+    margin: 0 0 20px 0;
+}
+
+.rates__text:last-of-type {
+    margin-bottom: 0;
+}
+
+.rates-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, max-content));
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.rates-icons__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 190px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rates-icons-img {
+    max-width: 88px;
+    height: 94px;
+    margin: 0 auto;
+}
+
+.rates-icons-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1B567C;
+    opacity: 0.8;
+    margin: 0 auto;
+}
+
+.rates__info-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 10px auto;
+}
+
+.rates-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, max-content));
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.rates-card {
+    padding: 18px 0 24px;
+    max-width: 280px;
+    box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+    border-radius: 0px 0px 10px 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.rates-card__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0 0 12px;
+    text-align: center;
+}
+
+.rates-card__info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 30px 14px;
+    text-align: center;
+    color: #858585;
+}
+
+.rates-card__info-last {
+    margin: 0 0 108px;
+}
+
+.rates-card-price {
+    display: flex;
+}
+
+.rates-card-price-info {
+    background: linear-gradient(90deg, #7CB4D8 0%, rgba(191, 230, 255, 0) 100%);
+    color: #1B567C;
+    max-width: 160px;
+    margin-right: 10px;
+}
+
+.rates-card-price-info__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.rates-card-price-info__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.rates-card-price-info-old {
+    background-color: rgba(183, 183, 183, 0);
+}
+
+.rates-card-price-info__title-old {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 100%;
+    color: #3C3B3B;
+    text-decoration-line: line-through;
+    margin: 0;
+    padding: 0;
+}
+
+.rates-cards__button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+    padding: 7px 41px;
+    background: #67A8D2;
+    border-radius: 5px;
+    border: 0;
+    max-width: 232px;
+    margin: 23px auto 0;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s opacity ease-in-out;
+}
+
+.rates-cards__button:hover {
+    opacity: 0.8;
+}
+
+.rates__text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FA6232;
+    margin: 34.65px auto 0;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .rates {
+        padding: 5% 7%;
+    }
+    .rates__title {
+        font-size: 32px;
+    }
+}

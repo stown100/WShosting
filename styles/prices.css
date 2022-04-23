@@ -1,0 +1,255 @@
+.prices {
+    color: #3C3B3B;
+    padding: 86px 130px 124px;
+}
+
+.prices__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin: 0 0 43px 0;
+}
+
+.prices__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices-content-text {
+    margin-right: 74px;
+}
+
+.prices-content-text__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    width: 447px;
+    margin-bottom: 23px;
+}
+
+.prices-content-text__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.prices-content-text__list-li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.prices-content-text__list-li:last-of-type {
+    margin-bottom: 0;
+}
+
+.prices-content-text__list-li-img {
+    margin-right: 10px;
+}
+
+.prices-content-text__list-li-text {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1B567C;
+}
+
+.table {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: -79px;
+}
+
+tr.table__title-block {
+    margin-left: 42px;
+}
+
+th.table__title {
+    text-align: center;
+    padding-bottom: 19px;
+}
+
+.line1 {
+    text-align: center;
+}
+
+td.table__line1-title {
+    padding: 11px 65px;
+    color: #FFFFFF;
+    background-color: #1B567C;
+}
+
+td.table__line1 {
+    padding: 11px 80px;
+    background: #67a7d241;
+}
+
+.line2 {
+    text-align: center;
+}
+
+td.table__line2-title {
+    background: #1b557cd2;
+    color: #FFFFFF;
+}
+
+.line3 {
+    text-align: center;
+}
+
+td.table__line3-title {
+    background: #1B567C;
+    color: #FFFFFF;
+}
+
+td.table__line3 {
+    padding: 11px 0;
+    background: #67a7d241;
+}
+
+.line4 {
+    text-align: center;
+}
+
+td.table__line4-title {
+    padding: 11px 0 67px;
+    background: #1b557cd2;
+    color: #FFFFFF;
+}
+
+.table__line4-button {
+    background: #67A8D2;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    border: 0;
+    margin-top: 17px;
+    padding: 7px 0;
+    width: 152px;
+}
+
+td {
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 1350px) {
+    .prices__content {
+        flex-direction: column;
+    }
+
+    .table {
+        margin-top: 10px;
+    }
+
+    .line4 {
+        display: flex;
+    }
+    .table__line4 {
+        display: flex;
+        flex-direction: column;
+    }
+    td.table__line4-title {
+        padding: 0 38.5px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1000px) {
+    .prices {
+        padding: 5% 7%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 750px) {
+    .table {
+        font-size: 16px;
+    }
+    th.table__title {
+        padding-bottom: 10px;
+    }
+    td.table__line1 {
+        padding: 8px 35px;
+    }
+    td.table__line1-title {
+        padding: 8px 35px;
+    }
+    td.table__line4-title {
+        padding: 11px 13.75px 0px;
+    }
+    .table__line4-button {
+        font-size: 12px;
+        margin-top: 13px;
+        padding: 7px 0;
+        width: 75px;
+    }
+    .prices-content-text__list-li  {
+        width: 300px;
+    }
+    .prices-content-text__list-li-text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 635px) {
+    .prices {
+        padding: 5% 7%;
+    }
+    td.table__line4-title {
+        padding: 11px 13.5px 0px;
+    }
+    .prices-content-text__title {
+        width: 280px;
+    }
+    .prices-content-text {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+    td.table__line1 {
+        padding: 8px 23px;
+    }
+    td.table__line1-title {
+        padding: 8px 23px;
+    }
+    td.table__line4-title {
+        padding: 8px 7px;
+    }
+    .table__line4-button {
+        font-size: 10px;
+        margin-top: 13px;
+        padding: 7px 0;
+        width: 55px;
+    }
+    td.table__line4 {
+        padding: 8px;
+    }
+    .table {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 320px) and  (max-width: 330px) {
+    td.table__line4-title {
+        padding: 8px 17.5px;
+    }
+    .prices-content-text__list-li-text {
+        font-size: 12px;
+    }
+    .table {
+        font-size: 10px;
+    }
+    td.table__line4-title {
+        padding: 9.75px;
+    }
+    .table__line4-button {
+        font-size: 10px;
+        margin-top: 13px;
+        padding: 7px 0;
+        width: 45px;
+    }
+}

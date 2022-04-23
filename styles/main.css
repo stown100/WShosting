@@ -1,0 +1,13 @@
+.main {
+    position: relative;
+}
+
+.borderr {
+    position: absolute;
+    left: 9.02777778%;
+    /* width: 1180px;  */
+    width: 81.9444444%;
+    border-bottom: 1px solid #858585;
+    padding: 0;
+    height: 0;
+}

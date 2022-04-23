@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./SFPRODISPLAYMEDIUM.OTF') format('OTF');
+  }
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./SFPRODISPLAYBLACKITALIC.OTF') format('OTF')
+}

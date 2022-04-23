@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    padding: 25px 130px 31px;
+    background: #262626;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #858585;
+    opacity: 0.5;
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    .footer {
+        padding: 25px 7% 31px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}

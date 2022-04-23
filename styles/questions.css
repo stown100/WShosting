@@ -1,0 +1,134 @@
+.questions {
+    color: #3C3B3B;
+    padding: 0 9.02777778% 224px;
+    position: relative;
+}
+
+.questions__background-img-one {
+    position: absolute;
+    left: 0;
+    top: -180px;
+    opacity: 0.3;
+}
+
+.questions__background-img-two {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    opacity: 0.3;
+}
+
+.questions__title {
+    text-align: center;
+    margin-bottom: 61px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+}
+
+.questions__text {
+    max-width: 739px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0 0 47px;
+}
+
+.questions__answers {
+    display: flex;
+    margin-top: 200px;
+}
+
+.questions-answer-first-column {
+    margin-right: 20px;
+    margin-top: -167px;
+}
+
+.questions-answer {
+    box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);
+    width: 580px;
+    padding: 24px 40px 26px 25px;
+    margin-bottom: 20px;
+}
+
+.questions-answer__title {
+    display: flex;
+    margin-bottom: 0;
+    max-height: 31px;
+    cursor: pointer;
+}
+
+.questions-answer__title-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #1B567C;
+    margin: 0 0 0 24px;
+}
+
+.questions-answer__text {
+    margin: 24px 0 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+@media (min-width: 1100px) and (max-width: 1350px) {
+    .questions-answer {
+        width: 500px;
+    }
+    .questions-answer__title-text {
+        font-size: 16px;
+        line-height: 120%;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1100px) {
+    .questions-answer {
+        width: 400px;
+    }
+    .questions-answer__title-text {
+        font-size: 14px;
+    }
+    .questions-answer__text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 950px) {
+    .questions__answers {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .questions__title {
+        font-size: 32px;
+    }
+    .questions__text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 620px) {
+    .questions__answers {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .questions-answer {
+        width: 280px;
+    }
+    .questions-answer__title-text {
+        font-size: 12px;
+    }
+    .questions-answer__text {
+        font-size: 10px;
+    }
+    .questions-answer {
+        margin: 0 auto;
+    }
+    .questions-answer-first-column {
+        margin: 0;
+    }
+}
